@@ -52,7 +52,7 @@ public class loops {
         }
     }
 
-    //goes from 4 tp 
+    //goes from 4 to 51
     public static void writeSquares5()
     {
         system.out.println("writeSquares5...");
