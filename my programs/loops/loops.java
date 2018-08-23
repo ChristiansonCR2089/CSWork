@@ -5,6 +5,10 @@ public class loops {
         writeSquares2();
         writeSquares3();
         writeSquares4();
+        writeSquares6();
+        writeSquares7();
+        hellothere();
+        nestedloop();
         
     }
     public static void writeSquares()
@@ -52,13 +56,43 @@ public class loops {
         }
     }
 
-    //goes from 4 to 51
-    public static void writeSquares5()
+    //this one counts up by 2
+    public static void writeSquares6()
     {
-        system.out.println("writeSquares5...");
-        for(int c =(2+ 2); c<=(17+3); c++);
+        System.out.println("writeSquares6...");
+        for (int count = 0; count <= 100; count += 2)
         {
-            system.out.println(c+" Squared = "+(c+c));
+            System.out.println(count + " squared = " + (count * count));
+        }
+    }
+
+    //you can also go backwards
+    public static void writeSquares7()
+    {
+        System.out.println("writeSquares7...");
+        for (int n = 100; n >= 0; n--)
+        {
+            System.out.println(n + " squared = " + (n * n));
+        }
+    }
+
+    //nested loop
+    public static void hellothere()
+    {
+        for (int i = 1; i < 10; i++)
+        {
+            System.out.println("Hello There");
+        }
+        System.out.println("General Kenobi");
+    }
+    public static void nestedloop()
+    {
+        for (int i =1; i <= 6; i++)
+        {
+            for (int j = 1; j <= 3 ; j++)
+            {
+                System.out.print(j + " ");
+            }
         }
     }
 }
