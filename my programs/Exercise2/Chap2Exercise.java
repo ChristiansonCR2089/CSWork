@@ -41,17 +41,36 @@ public static void Exercise2()
     System.out.println("Exercise2");
     for(int i = 1; i <= 10; i++)
     {
-        System.out.println((i*i));
+        System.out.print((i*i+" "));
     }
 }
 
 public static void Exercise3()
 { 
+    System.out.println();
    System.out.println("Exercise3");
+    int a = 1;
+    int b = 1;
+    int count = 1;
+    int temp = 0;
+    while (count <=12){
+    if(count<=1){
+    System.out.print(b+", ");
+    count++;
+    }else if (2<=count ){
+        count++;
+        System.out.print(+b +", ");
+        temp = a+b;
+        a=b;
+        b=temp;
+    }
+    }
+
 }
 
 public static void Exercise4()
 {
+    System.out.println("");
     System.out.println("Exercise4");
     for(int i = 1; i <= 4; i++)
     {
