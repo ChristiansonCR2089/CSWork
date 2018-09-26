@@ -1,6 +1,3 @@
-//MAKE SURE TO FIX LOW INCLUDING 0
-//YOULL KNOW WHEN YOU RUN IT
-
 import java.util.Scanner;
 public class assignment3
 {
